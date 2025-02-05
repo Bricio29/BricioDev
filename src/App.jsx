@@ -72,7 +72,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
-        <Route path="/project/:id" element={<ProjectPageLayout />} />
+        <Route path="/briciodev/:id" element={<ProjectPageLayout />} />
       </Routes>
     </BrowserRouter>
   );
